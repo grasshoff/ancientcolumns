@@ -8,17 +8,16 @@ Ein Test-Repositorium, um den Datenaufbau und die Struktur der Metadaten zu erpr
 
 
 ## Source
- -- data
-   - CLMN.json                - database
-   - meta.json                - project metadata
-   - column_meta.json         - metadata template for research objects (columns)
-   - sci_meta.json            - metadata template for digital resources
-      
- -- project documentation
-   - ro-99999_meta.json       - metadata for research object (documentation)
-   - sci-99999_meta.json      - metadata for digital resource (documentation of key and values from CLMN.json)
-
--- administration
-  - views.json                - for counting and searching the within the CouchDB for a correct visualizaton of the documents
-  - filter_hierarchy.json     - used to build the filter hierarchy of the research objects
-  - display_definitions.json  - defining titles and paragraphs for the online visualization
+files
++-- data
+   +-- CLMN.json                - database
+   +-- meta.json                - project metadata
+   +-- column_meta.json         - metadata template for research objects (columns)
+   +-- sci_meta.json            - metadata template for digital resources
++-- project documentation
+    +-- ro-99999_meta.json       - metadata for research object (documentation)
+    +-- sci-99999_meta.json      - metadata for digital resource (documentation of key and values from CLMN.json)
++-- administration
+    +-- views.json                - for counting and searching the within the CouchDB for a correct visualizaton of the documents
+    +-- filter_hierarchy.json     - used to build the filter hierarchy of the research objects
+    +-- display_definitions.json  - defining titles and paragraphs for the online visualization
