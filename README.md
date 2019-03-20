@@ -8,12 +8,11 @@ Ein Test-Repositorium, um den Datenaufbau und die Struktur der Metadaten zu erpr
 
 
 ## Source
-files
 +-- data
-   +-- CLMN.json                - database
-   +-- meta.json                - project metadata
-   +-- column_meta.json         - metadata template for research objects (columns)
-   +-- sci_meta.json            - metadata template for digital resources
+    +-- CLMN.json                - database
+    +-- meta.json                - project metadata
+    +-- column_meta.json         - metadata template for research objects (columns)
+    +-- sci_meta.json            - metadata template for digital resources
 +-- project documentation
     +-- ro-99999_meta.json       - metadata for research object (documentation)
     +-- sci-99999_meta.json      - metadata for digital resource (documentation of key and values from CLMN.json)
