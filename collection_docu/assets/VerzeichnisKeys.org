@@ -102,7 +102,22 @@ Collection Verzeichnisbaum - Beispiel 'Ancient Columns'
 *** tpl/object-display_base (Breadcrump-Navigation)
 *** tpl/base_Sci (Metadaten-Seitenleiste)
 * Einzelresource-Ansicht
-** sci-00001.json, sci-00002.json, sci-00003.json usw.
-   
-   
-     
+** Content
+*** sci-00001.json, sci-00002.json, sci-00003.json usw.
+**** verwendete keys:
+***** metadata->General Information -> Title
+***** metadata->General Information -> Subtitle
+***** metadata->General Information -> Creator
+***** metadata->General Information -> Publication Year
+***** metadata->General Information -> Publisher
+***** resources->metadata -> General Information -> DOI
+*** ServiceCLMN
+**** CLMN00001, CLMN00002, CLMN00003 usw.
+** CSS
+*** theme: nabvar-brand
+*** theme: navbar
+*** theme: meta
+*** theme: collection_sidebar 
+** Funktionalität/php   
+*** tpl/base_Sci (Metadaten-Seitenleiste
+*** tpl/single_sci_display     
